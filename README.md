@@ -7,6 +7,8 @@ Domains to redirect:
 - www.pachube.com
 - provisioning.connectedenvironments.com
 
+You will also need to update the `BROKER` variable for your network.
+
 This requires a http://currentcost.com/ device, and modification of DNS on
 your network for this to work. This is especially helpful while
 http://my.currentcost.com/ is migrated to a new server so you can still
