@@ -42,7 +42,7 @@ def activate(deviceid):
     return response
 
 def senddata(val):
-    paho.mqtt.publish.single("currentcost/power/usage", val, hostname=BROKER)
+    paho.mqtt.publish.single("currentcost/power/usage", val, hostname=BROKER, port=PORT)
 
 if __name__ == "__main__":
     app.run(port=80, host='0.0.0.0')
